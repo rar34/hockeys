@@ -17,6 +17,7 @@
                         clifford: '#da373d',
                         'color-main': '#FF4240',
                         'color-gray': '#424247',
+                        'color-gray-lite': '#13131863',
                     }
                 }
             }
@@ -104,28 +105,28 @@
     <main class="container mx-auto my-24">
         <hr>
         <!-- Professional Hockeys Club -->
-        <section>
+        <section class="p-4">
             <h3 class="text-2xl lg:text-4xl font-extrabold text-center mt-20">Professional Hockeys Club</h3>
-            <p class="text-center w-1/2 mx-auto my-6">Explore elite hockey with top-tier athletes at premier clubs showcasing skill, dedication, and unmatched teamwork.</p>
+            <p class="text-center lg:w-1/2 mx-auto my-6">Explore elite hockey with top-tier athletes at premier clubs showcasing skill, dedication, and unmatched teamwork.</p>
             <hr>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-6 p-3">
                 <div class="flex flex-col justify-center items-center space-y-6 my-8">
-                    <div class="radial-progress  text-color-main border-primary" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress  text-color-main font-extrabold border-primary" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
                     <h4 class="text-xl font-semibold">Prayer Facility</h4>
                     <p class="text-center text-color-gray">Sacred space for contemplation and spiritual connection.</p>
                 </div>
                 <div class="flex flex-col justify-center items-center space-y-6 my-8">
-                    <div class="radial-progress  text-[#49D293] border-primary" style="--value:95;" role="progressbar">95%</div>
+                    <div class="radial-progress  text-[#49D293] font-extrabold border-primary" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
                     <h4 class="text-xl font-semibold">Experienced Coach</h4>
                     <p class="text-center text-color-gray">Skilled mentor cultivating excellence in athletes' performance.</p>
                 </div>
                 <div class="flex flex-col justify-center items-center space-y-6 my-8">
-                    <div class="radial-progress  text-amber-500 border-primary" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress  text-amber-500 font-extrabold border-primary" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
                     <h4 class="text-xl font-semibold">Senior Player</h4>
                     <p class="text-center text-color-gray">Experienced senior player excelling with enduring passion.</p>
                 </div>
                 <div class="flex flex-col justify-center items-center space-y-6 my-8">
-                    <div class="radial-progress  text-[#4C8DF1] border-primary" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress  text-[#4C8DF1] font-extrabold border-primary" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
                     <h4 class="text-xl font-semibold">Training Ground</h4>
                     <p class="text-center text-color-gray">Dedicated facility for rigorous sports training programs.</p>
                 </div>
@@ -135,9 +136,9 @@
         </section>
 
         <!-- Program Sections -->
-        <section>
+        <section class="p-4">
             <h3 class="text-2xl lg:text-4xl font-extrabold text-center mt-20">Program Sections</h3>
-            <p class="text-center w-1/2 mx-auto my-6 mb-12">Experience excellence on the ice. Our hockey program emphasizes skill development, teamwork, and a love for the game. Join us today!</p>
+            <p class="text-center lg:w-1/2 mx-auto my-6 mb-12">Experience excellence on the ice. Our hockey program emphasizes skill development, teamwork, and a love for the game. Join us today!</p>
             <hr>
             <!-- program section card container -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 p-3 mt-12">
@@ -157,7 +158,220 @@
                     <button class="bg-color-main text-xl font-bold text-white py-3 px-6 rounded-lg hover:bg-color-gray">Register Now!</button>
                 </div>
             </div>
+            
         </section>
+
+        <!-- Our New Products section -->
+
+        <section class="my-24">
+            <hr>
+            <h3 class="text-2xl lg:text-4xl font-extrabold text-center mt-20">Our New Products</h3>
+            <p class="text-center lg:w-1/2 mx-auto my-6 mb-12">Revolutionary hockey gear: Lightweight, durable sticks; advanced, comfortable skates; cutting-edge protective equipment; enhancing performance, safety, and overall player experience.</p>
+            <hr>
+            <!-- container -->
+            <div class="my-24 grid grid-cols-1 lg:grid-cols-2 gap-6 p-3">
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/5.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/6.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/7.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">Cap For Hockeys</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/8.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">Cap For Hockeys</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/9.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-5 border-2 p-6 rounded-lg">
+                    <div>
+                        <img src="./Images/10.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-5">
+                        <div class="flex gap-4">
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/start.png" alt="">
+                                <h4 class="font-medium">5.0</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/eye.png" alt="">
+                                <h4 class="font-medium">20</h4>
+                            </div>
+                            <div class="flex items-center justify-center gap-2">
+                                <img src="./Images/love.png" alt="">
+                                <h4 class="font-medium">200</h4>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-extrabold mb-3">World Cup Flags Football</h3>
+                            <p class="text-color-gray-lite">Global unity on display as flags embrace World Cup football.</p>
+                        </div>
+                        <div class="flex flex-col lg:flex-row gap-5">
+                            <h3 class="text-xl font-extrabold text-color-main">Price - $22.00</h3>
+                            <div class="flex lg:items-center lg:justify-center gap-2">
+                                <img src="./Images/cart.png" alt="">
+                                <p class="font-medium text-color-gray-lite font-medium">Delivery Fee:Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <hr>
+        </section>
+       
     </main>
     <footer>
 
